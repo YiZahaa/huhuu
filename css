@@ -1,0 +1,93 @@
+/* BODY */
+body {
+  margin: 0;
+  padding: 0px;
+  height: 250vh;
+  background-image: url('https://i.pinimg.com/736x/bf/9d/14/bf9d145806dd7cfb86312d998abdfcd2.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 5px rgba(0,0,0,0.7);
+}
+
+/* INTRO SCREEN */
+.intro {
+  background-image: url('https://wallpapers.com/images/hd/whisper-of-the-heart-900-x-1608-wallpaper-gfaj3tcuiaj6bbfa.jpg');
+  padding: 200px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  max-width: 500px;
+}
+
+#startBtn, #restartBtn {
+  padding: 12px 25px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+#startBtn:hover, #restartBtn:hover {
+  background: #3e8e41;
+}
+
+/* QUIZ BOX */
+.quiz-box {
+  background-image: url('https://wallpapers.com/images/hd/whisper-of-the-heart-900-x-1608-wallpaper-gfaj3tcuiaj6bbfa.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 200px;
+  border-radius: 15px;
+  max-width: 600px;
+  margin-top: 120px;
+  color: black;
+  font-family: times new roman;
+  text-shadow: 0 10 5px rgba(1,1,1,1);
+  display: none; /* hidden at first */
+}
+
+.option {
+  padding: 12px;
+  background: #f1f3f7;
+  margin: 8px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.option:hover {
+  background: #e3e6ed;
+}
+
+button {
+  padding: 12px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #9bb8df;
+  cursor: not-allowed;
+}
+
+#backBtn {
+  background: #555;
+  margin-left: 10px;
+}
+
+#backBtn:hover {
+  background: #333;
+}
